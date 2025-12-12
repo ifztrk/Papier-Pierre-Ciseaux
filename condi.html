@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pierre-Papier-Ciseaux</title>
+    <link rel="stylesheet" href="condi.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Jeu Pierre-Papier-Ciseaux</h1>
+
+        <div id="prenom-section">
+            <label for="prenom">Entrez votre prénom :</label>
+            <input type="text" id="prenom" placeholder="Votre prénom">
+            <button id="start-btn">Commencer le jeu</button>
+        </div>
+
+        <div id="jeu-section" style="display:none;">
+            <p>Choisissez pierre, papier ou ciseaux :</p>
+            <div class="buttons">
+                <button data-choix="pierre">Pierre</button>
+                <button data-choix="papier">Papier</button>
+                <button data-choix="ciseaux">Ciseaux</button>
+            </div>
+            <p id="message"></p>
+            <p id="score"></p>
+            <button id="restart-btn" style="display:none;">Recommencer</button>
+        </div>
+    </div>
+
+    <script src="condi.js"></script>
+</body>
+</html>

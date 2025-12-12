@@ -1,0 +1,31 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #ffc400ea;
+    padding-top: 50px;
+}
+
+.container {
+    background-color: #ffffff;
+    display: inline-block;
+    padding: 20px 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(207, 0, 0, 0.914);
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 5px;
+}
+
+#message {
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+#score {
+    margin-top: 10px;
+}
+
